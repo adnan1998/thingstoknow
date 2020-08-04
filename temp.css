@@ -1,0 +1,49 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+.nav{
+	background: rgba(0,0,0,.3);
+	height: 70px;
+}
+.logo{
+	margin: -13px 5px;
+	height: 100px;
+}
+
+.menu{
+	float: right;
+	list-style: none;
+	margin: 20px;
+}
+
+.menu li{
+	display: inline-block;
+	margin: 6px 5px;
+}
+
+.menu li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 10px;
+	font-family: sans-serif;
+	letter-spacing: 2px;
+
+}
+
+
+#homecoral{
+	
+	background-color: coral;
+	padding: 27px 10px;
+}
+
+.menu li a:hover{
+	background: coral;
+	border-bottom: 1px solid coral;
+	transition: .3s;
+	padding: 25px 10px 25px 10px;
+	border-top: 1px solid coral;
+	border-right: 1px solid coral;
+	border-left: 1px solid coral;
+}

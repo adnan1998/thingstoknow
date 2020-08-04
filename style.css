@@ -1,0 +1,167 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+.video-backgroung{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -100;
+}
+
+.background-wrap{
+	position: fixed;
+	z-index: -1000;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+}
+
+@media (min-aspect-ratio: 16/9) {
+	.video-background{
+		width: 100%;
+		height: auto;
+	}
+}
+
+@media (max-aspect-ratio: 16/9) {
+	.video-background{
+		width: auto;
+		height: 100%;
+	}
+}
+
+
+header{
+	background:rgba( 0, 50, 100, 0.5);
+	height: 100vh;
+}
+
+.nav{
+	background: rgba(0,0,0,.3);
+	height: 70px;
+}
+.logo{
+	margin: -13px 5px;
+	height: 100px;
+}
+
+.menu{
+	float: right;
+	list-style: none;
+	margin: 20px;
+}
+
+.menu li{
+	display: inline-block;
+	margin: 7px 5px;
+}
+
+.menu li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 10px;
+	font-family: sans-serif;
+	letter-spacing: 2px;
+
+}
+
+
+#homecoral{
+	
+	background-color: coral;
+	padding: 27px 10px;
+}
+
+.menu li a:hover{
+	background: coral;
+	border-bottom: 1px solid coral;
+	transition: .3s;
+	padding: 25px 10px 25px 10px;
+	border-top: 1px solid coral;
+	border-right: 1px solid coral;
+	border-left: 1px solid coral;
+}
+
+
+.msg{
+	position: relative;
+	text-align: center;
+	font-family: sans-serif;
+	color: #fff;
+	top: 200px;
+}
+
+.msg h1{
+	
+	margin: 25px;
+
+	text-transform: uppercase;
+	font-size: 7em;
+	color: rgba(255, 255, 255, .1);
+	background-image: url(water/sekil.png);
+	background-repeat: repeat-x;
+	-webkit-background-clip: text;
+	animation: animate 15s linear infinite;
+}
+
+@keyframes animate{
+	0%{
+		background-position: left 0px top 20px;
+	}
+	40%{
+		background-position: left 800px top -80px;
+	}
+	80%{
+		background-position: left 1800px top -80px;
+	}
+	100%{
+		background-position: left 2400px top 20px;
+	}
+}
+
+.btn{
+	font-size: 18px;
+	color: #fff;
+	letter-spacing: 2px;
+	margin: 5px;
+	padding: 7px 28px;
+	text-decoration: none;
+	border: 1px solid coral;
+	border-radius: 25px;
+}
+
+.btn1{
+	background: coral;
+	color: #fff
+}
+
+.btn2:hover{
+	background: coral;
+	transition: .4s;
+}
+ #divider{
+ 	background-color: #ff7f50;
+	height: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

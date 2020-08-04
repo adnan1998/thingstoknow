@@ -1,0 +1,100 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	background:rgba( 0, 0, 100, 0.2);
+	height: 100vh;
+}
+footer{
+	background-color: black;
+	color: white;
+	font-family: 'oswald',sans-serif;
+}
+
+.nav{
+	background: rgba(0,0,0,.5);
+	height: 70px;
+}
+.logo{
+	margin: -13px 5px;
+	height: 100px;
+}
+
+.menu{
+	float: right;
+	list-style: none;
+	margin: 20px;
+}
+
+.menu li{
+	display: inline-block;
+	margin: 7px 5px;
+}
+
+.menu li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 10px;
+	font-family: sans-serif;
+	letter-spacing: 2px;
+
+}
+
+
+#homecoral{
+	
+	background-color: coral;
+	padding: 27px 10px;
+}
+
+.menu li a:hover{
+	background: coral;
+	border-bottom: 1px solid coral;
+	transition: .3s;
+	padding: 25px 10px 25px 10px;
+	border-top: 1px solid coral;
+	border-right: 1px solid coral;
+	border-left: 1px solid coral;
+}
+
+.makeup{
+	position: relative;
+	text-align: center;
+	font-family: sans-serif;
+	color: #fff;
+	background-image: url(images/adnan.jpg);
+}
+#divider{
+	background-color: #ff7f50;
+	height: 5px;
+}
+
+p.art a{
+	color: #fff;
+	text-decoration: none;
+	word-spacing: 5px;
+	letter-spacing: 1.5px;
+}
+.notise{
+	height: 30px;
+	text-decoration: none;
+	font-family: sans-serif;
+	position: relative;
+	font-size: 20;
+	color: blue;
+
+	position: relative;
+	padding: 3px;
+	margin: 0px;
+	background-color: powderblue;
+}
+
+.divideline{
+	padding: 15px 5px;
+	height: 110px;
+
+}
+
